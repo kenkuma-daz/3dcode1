@@ -1,0 +1,7 @@
+let screen2 = image.create(scene.screenWidth(), scene.screenHeight())
+screen2.fill(4)
+scene.setBackgroundImage(screen2)
+screen2.drawLine(0, 0, scene.screenWidth(), scene.screenHeight(), 5)
+screen2.drawLine(0, scene.screenHeight(), scene.screenWidth(), 0, 5)
+screen2.drawLine(scene.screenWidth() / 2, 0, scene.screenWidth() / 2, scene.screenHeight(), 5)
+screen2.drawLine(0, scene.screenHeight() / 2, scene.screenWidth(), scene.screenHeight() / 2, 5)
