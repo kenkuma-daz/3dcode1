@@ -16,6 +16,7 @@ function testWall () {
     screen2.drawRect(scene.screenWidth() / 16 * 7, scene.screenHeight() / 16 * 7, scene.screenWidth() / 16 * 2, scene.screenHeight() / 16 * 2, 1)
 }
 let screen2: Image = null
+let mapArray = ["a", "b", "c", ""]
 let L2wall = sprites.create(assets.image`L2`, SpriteKind.wall)
 let L1wall = sprites.create(assets.image`L1`, SpriteKind.wall)
 let R2wall = sprites.create(assets.image`R2`, SpriteKind.wall)

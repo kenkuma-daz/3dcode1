@@ -2,7 +2,8 @@
     "name": "3dcode1",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.11.0"
     },
     "files": [
         "main.blocks",
